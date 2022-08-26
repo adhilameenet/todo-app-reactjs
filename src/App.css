@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #0d0d0d;
+}
+
+.container {
+  margin-top: 2.5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .main-title h1 {
+  text-align: center;
+}
+
+.container h1 {
+  color: white;
+}
+
+.container .add-task-input {
+  margin-top: 0.5em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.container .add-task-input input {
+  width: 100%;
+  font-weight: 500;
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+input::placeholder {
+  font-size: small;
+  font-weight: 500;
+}
+
+.container i {
+  cursor: pointer;
+  font-size: medium;
+  color: grey;
+  margin-right: 6px;
+}
+
+.container .todos .todo {
+  margin-top: 0.5em;
+  width: 20em;
+  height: 2em;
+  background-color: #2b2222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.container .todos .todo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.container .todos .todo .left p {
+  margin-left: 8px;
+  font-size: small;
+  font-weight: 600;
+  color: rgb(156, 151, 151);
+}
