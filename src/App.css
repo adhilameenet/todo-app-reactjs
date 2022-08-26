@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
   background-color: #0d0d0d;
 }
 
@@ -80,4 +80,8 @@ input::placeholder {
   font-size: small;
   font-weight: 600;
   color: rgb(156, 151, 151);
+}
+
+.container .todos .todo .left input {
+  margin-left: 6px;
 }
